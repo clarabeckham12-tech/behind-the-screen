@@ -67,3 +67,38 @@ footer {
     border-top: 1px solid #202020;
     font-size: 0.9rem;
 }
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.hero .eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(3.5rem, 10vw, 8rem);
+    line-height: 0.95;
+    letter-spacing: -3px;
+}
+
+.hero .slogan {
+    font-size: 1.35rem;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.hero .intro {
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    opacity: 0.7;
+}
