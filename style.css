@@ -102,3 +102,25 @@ footer {
     margin-top: 10px;
     opacity: 0.7;
 }
+.quote {
+    max-width: 650px;
+    margin: 70px auto;
+    padding: 35px 30px;
+    border-top: 1px solid #7a263a;
+    border-bottom: 1px solid #7a263a;
+    color: #7a263a;
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
