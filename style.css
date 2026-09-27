@@ -151,3 +151,47 @@ footer {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+/* =========================
+   COUVERTURE — ACCUEIL
+   ========================= */
+
+.hero {
+    min-height: 90vh;
+    padding: 70px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .eyebrow {
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    margin: 0;
+    color: var(--navy);
+    font-size: clamp(3.5rem, 11vw, 8rem);
+    line-height: 0.9;
+    letter-spacing: -4px;
+}
+
+.hero .slogan {
+    margin-top: 35px;
+    color: var(--burgundy);
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.hero .intro {
+    max-width: 550px;
+    margin-top: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    opacity: 0.75;
+}
