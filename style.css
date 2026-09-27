@@ -1,5 +1,32 @@
 /* =========================
    BEHIND THE SCREEN
+   BASE DU DESIGN
+   ========================= */
+
+:root {
+    --cream: #f5f0e8;
+    --navy: #17243d;
+    --burgundy: #7a263a;
+    --black: #202020;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cream);
+    color: var(--black);
+    font-family: Georgia, serif;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}/* =========================
+   BEHIND THE SCREEN
    Feuille de style principale
    ========================= */
 
