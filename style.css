@@ -205,6 +205,8 @@ footer {
     background-color: var(--navy);
     color: var(--cream);
     border-radius: 18px;
+   min-width: 320px;
+    max-width: 520px;
     text-align: center;
 }
 
