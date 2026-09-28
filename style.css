@@ -292,4 +292,6 @@ article h3 {
     color: var(--navy);
     font-size: clamp(1.8rem, 5vw, 3rem);
     line-height: 1.1;
+   font-family: Georgia, serif;
+font-weight: normal;
 }
